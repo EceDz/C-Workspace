@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void print_square (int side){
     int i,j;
     for(j=1;j<=side;j++){
