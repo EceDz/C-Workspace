@@ -2,20 +2,20 @@
 #define pi 3.14
 
 float calculate_area_of_circle(int radius){
-    int area_circle;
+    float area_circle;
     area_circle= pi * radius * radius ;
     return area_circle;
 } 
 
 float calculate_area_of_rectangle(int width , int lenght){
-    int area_rectangle;
+    float area_rectangle;
     area_rectangle= width * lenght;
     return area_rectangle;
 }
 
 float calculate_area_of_triangle(int base , int height){
-    int area_triangle;
-    area_triangle= (base / 2) * height ;
+    float area_triangle;
+    area_triangle= (base / 2.0 ) * height ;
     return area_triangle;
 }
     
