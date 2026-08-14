@@ -34,7 +34,7 @@ void strTrim (char B[]){
 
 
 int main(){
-    char A[8]="ComputerScience";
+    char A[16]="ComputerScience";
     char B[10]= "**Trim**";    
     printf("%d", isPalindrome (A) );
     strTrim( B );
