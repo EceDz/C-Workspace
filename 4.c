@@ -32,10 +32,10 @@ void print_number_pattern (int rows){
 
 int main(){
     char pattern_type;
-    printf("Enter the type of pattern(s/t/n):%c",pattern_type);
+    printf("Enter the type of pattern(s/t/n): ");
     scanf("%c", &pattern_type);
     while (pattern_type!='s'&&pattern_type!='t'&&pattern_type!='n'){
-        printf("Try again:%c",pattern_type);
+        printf("Try again: ");
         scanf("%c", &pattern_type);
     }    
     if (pattern_type=='s'){
